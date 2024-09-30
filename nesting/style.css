@@ -47,6 +47,7 @@ a:hover {
   flex:2; /* THis is flex 'item' -ish */
   text-align: center;    /* item center, default is stretch */
   display:flex; /* This is flex 'container' -ish */
+  border: 1px solid red
 }
 
 .slider-nav .arrow {
