@@ -13,8 +13,23 @@ img {
 	margin: 30px;
 	display: flex;
 	min-height: 90vh;
-	flex-direction: column-reverse;
+	/* flex-flow: row-reverse wrap; */
+	/* flex-direction: row;
+	flex-wrap: wrap-reverse; */
 }
+
+.item2 {
+	order: 3;
+}
+.item3 {
+	order: 1;
+}
+.item5 {
+	order: -1;
+}
+/* .item {
+	width: 200px;
+} */
 .container > * {
 	border: 2px solid green;
 	background-color: #ffec99;
