@@ -4,9 +4,13 @@
     box-sizing: border-box;
 }
 
-.containter {
+.container {
     background-color: #ccc;
     padding: 10px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .item {
