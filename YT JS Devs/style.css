@@ -9,8 +9,9 @@
     padding: 10px;
 
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .item {
@@ -19,4 +20,12 @@
     margin: 30px;
     color: #fff;
     font-size: 40px;
+}
+
+.i2 {
+    height: 200px;
+}
+
+.i4 {
+   /* font-size: 90px; */
 }
