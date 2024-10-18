@@ -4,10 +4,10 @@
   "description": "Landing page for trillo app",
   "main": "index.js",
   "scripts": {
-    "sass": "sass main.scss Proj--Booking-App/css/styles.css"
+    "sass": "sass main.scss Proj--Booking-App/css/styles.css",
+    "watch": "sass --watch main.scss css/styles.css"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "devDependencies": {}
+  "license": "ISC"
 }
