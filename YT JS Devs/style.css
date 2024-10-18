@@ -13,13 +13,14 @@
     justify-content: space-between;
     align-items: center;
 
-    flex-wrap: wrap ;
+    flex-wrap: wrap;
+    align-content: flex-start;
 }
 
 .item {
     background-color: #f1425d;
     padding: 30px;
-    margin: 30px;
+    margin: 5px;
     color: #fff;
     font-size: 40px;
     flex-grow: 1;
